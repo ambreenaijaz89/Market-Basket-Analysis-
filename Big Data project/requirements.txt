@@ -1,0 +1,18 @@
+pandas>=2.0
+numpy
+pyarrow
+pyspark>=3.4
+mlxtend
+plotly
+dash
+openpyxl
+sqlalchemy
+sqlite3
+xlrd
+python-dateutil
+scikit-learn
+
+# dev
+black
+isort
+pytest

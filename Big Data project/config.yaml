@@ -1,0 +1,13 @@
+project:
+  name: retail_bigdata
+  timezone: Asia/Karachi
+paths:
+  raw: data_raw
+  processed: data
+  reports: reports
+  sqlite: sqlite/retail_dims.db
+etl:
+  min_quantity: 1
+  min_unit_price: 0.01
+analysis:
+  rfm_reference_date: "2025-11-24"  # update as needed
